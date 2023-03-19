@@ -14,7 +14,7 @@ public class task2_1 {
 
     public static void main(String[] args) throws SecurityException, IOException {
         
-        FileHandler fileTxt = new FileHandler("Сортировка пузырьком.txt");
+        FileHandler fileTxt = new FileHandler("bubblesort.txt");
         SimpleFormatter formatterTxt = new SimpleFormatter();
         fileTxt.setFormatter(formatterTxt);
         LOGGER.addHandler(fileTxt);
