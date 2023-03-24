@@ -10,15 +10,15 @@ public class task3_2 {
         ArrayList<Integer> arr = new ArrayList<Integer>();
         Random ran = new Random();
         for (int i = 0; i < 10; i++) {
-            int x = ran.nextInt(10); // случайная переменная от 0 до 10
-            arr.add(x); // добавление переменной в массив
+            int x = ran.nextInt(10);
+            arr.add(x);
         }
         System.out.println("Начальный массив: " + arr.toString());
 
         int i = 0;
 
         while (i < arr.size()) {
-            if (arr.get(i) % 2 == 0) { // элемент полученный по индексу
+            if (arr.get(i) % 2 == 0) {
                 arr.remove(i);
             } else {
                 i++;
@@ -28,4 +28,3 @@ public class task3_2 {
 
     }
 }
-        
